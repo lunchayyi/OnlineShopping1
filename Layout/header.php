@@ -123,6 +123,8 @@ if (!empty($_SESSION['cart'])) {
         box-sizing: border-box;
     }
 
+    .search-wrapper input[type="search"] { -webkit-appearance: none; appearance: none; }
+
     .search-wrapper input::placeholder {
         color: #94a3b8;
     }
@@ -469,13 +471,17 @@ if (!empty($_SESSION['cart'])) {
         <div class="header-actions">
 
             <!-- Search -->
-            <div class="search-wrapper">
+            <form class="search-wrapper" action="index.php" method="get" role="search" style="margin:0;">
+                <input type="hidden" name="page" value="search">
+                <button type="submit" aria-label="Search" style="position:absolute;left:0;top:0;bottom:0;width:38px;background:none;border:0;padding:0;cursor:pointer;z-index:2;"></button>
                 <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
-                <input type="text" placeholder="Search products...">
-            </div>
+                <input type="search" name="q" placeholder="Search products..."
+                       aria-label="Search products" autocomplete="off"
+                       value="<?= htmlspecialchars($_GET['q'] ?? '', ENT_QUOTES, 'UTF-8') ?>">
+            </form>
 
             <!-- Account -->
             <?php if (isset($_SESSION['user_id'])): ?>
@@ -781,5 +787,3 @@ if (!empty($_SESSION['cart'])) {
 </script>
 
 <script src="wishlist.js" defer></script>
-
-
