@@ -46,6 +46,10 @@ if ($page === 'home') {
             include 'components/contact.php';
             break;
 
+        case 'search':
+            include 'components/search.php';
+            break;
+
         case 'help':
             include 'components/help.php';
             break;
