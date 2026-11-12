@@ -59,7 +59,7 @@ $newArrivals = [
     [
         'id' => 5,
         'price' => 30.76,
-        'title' => "rrrr",
+        'title' => "Oversized White Sweatshirt & Black Straight Jeans",
         'image' => "images/cloth_girl_20.jpg",
         'images' => [
             "images/cloth_girl_20.jpg",
@@ -72,7 +72,7 @@ $newArrivals = [
     [
         'id' => 6,
         'price' => 3.16,
-        'title' => "aaaaa",
+        'title' => "Boxy Black Tee & Camo Baggy Pants",
         'image' => "images/cloth_girl_25.jpg",
         'images' => [
             "images/cloth_girl_25.jpg",
@@ -86,7 +86,7 @@ $newArrivals = [
     [
         'id' => 7,
         'price' => 30.80,
-        'title' => "bbbbb",
+        'title' => "Raglan Crop Tee & Wide-Leg Dark Jeans",
         'image' => "images/cloth-girl1.jpg",
         'images' => [
             "images/cloth-girl1.jpg",
@@ -100,7 +100,7 @@ $newArrivals = [
     [
         'id' => 8,
         'price' => 50.00,
-        'title' => "cccc",
+        'title' => "Black Long-Sleeve Top & Washed Cargo Jeans",
         'image' => "images/cloth-girl11.jpg",
         'images' => [
             "images/cloth-girl11.jpg",
@@ -116,7 +116,7 @@ $bestSellers = [
     [
         'id' => 9,
         'price' => 30.75,
-        'title' => "dddd",
+        'title' => "Ruffle Mini Skirt & Loafers Set",
         'image' => "images/skert1.jpg",
         'images' => [
             "images/skert1.jpg",
@@ -130,7 +130,7 @@ $bestSellers = [
     [
         'id' => 10,
         'price' => 10.95,
-        'title' => "eee",
+        'title' => "Grey Hoodie & Wide-Leg Sweatpants Set",
         'image' => "images/hoodie1.jpg",
         'images' => [
             "images/hoodie1.jpg",
@@ -143,7 +143,7 @@ $bestSellers = [
     [
         'id' => 11,
         'price' => 40.95,
-        'title' => "ffff",
+        'title' => "Grey Henley Top & Sweat Skirt Set",
         'image' => "images/cloth-girl16.jpg",
         'images' => [
             "images/cloth-girl16.jpg",
@@ -157,7 +157,7 @@ $bestSellers = [
     [
         'id' => 12,
         'price' => 30.90,
-        'title' => "ggg",
+        'title' => "Khaki Henley Tee & Blue Jeans",
         'image' => "images/cloth-girl21.jpg",
         'images' => [
             "images/cloth-girl21.jpg",
@@ -173,7 +173,7 @@ $featuredProducts = [
     [
         'id' => 13,
         'price' => 10.95,
-        'title' => "hhhh",
+        'title' => "Navy Oversized Tee & Washed Baggy Jeans",
         'image' => "images/cloth-girl26.jpg",
         'images' => [
             "images/cloth-girl26.jpg",
@@ -186,7 +186,7 @@ $featuredProducts = [
     [
         'id' => 14,
         'price' => 60.85,
-        'title' => "iiii",
+        'title' => "Black Leather Bomber Jacket",
         'image' => "images/jacket1.jpg",
         'images' => [
             "images/jacket1.jpg",
@@ -199,20 +199,16 @@ $featuredProducts = [
     [
         'id' => 15,
         'price' => 40.95,
-        'title' => "jjjj",
+        'title' => "Faded Blue Flare Jeans",
         'image' => "images/jean1.jpg",
         'images' => [
-            "images/jean1.jpg",
-            "images/jean2.jpg",
-            "images/jean3.jpg",
-            "images/jean4.jpg",
             "images/jean1.jpg"
         ]
     ],
     [
         'id' => 16,
         'price' => 12.95,
-        'title' => "kkkk",
+        'title' => "Dark Indigo Barrel-Leg Jeans",
         'image' => "images/jean10.jpg",
         'images' => [
             "images/jean10.jpg",
@@ -951,4 +947,3 @@ function renderSection($id, $title, $products = [])
 </body>
 
 </html>
-
